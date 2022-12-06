@@ -1,0 +1,50 @@
+body{
+    margin: auto;
+    text-align: center;
+}
+h1{
+    color: orange;
+    font-size: 50px;
+    }
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 15%;
+    border-radius: 50%;
+}
+.lingkaran{
+    background-color: #b0e4e6;
+    width: 125px;
+    height: 125px;
+    margin: 0 20px 0 20px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.lingkaran:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: #e37218 ;
+    box-shadow: 3px 3px 3px black;
+}
+
+a{
+    /* font-size: 20px; */
+    color: blue;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #e37218 ;
+}
+
+p{
+    font-size: 30px;
+}
